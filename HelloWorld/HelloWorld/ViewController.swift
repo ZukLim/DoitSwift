@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  HelloWorld
 //
-//  Created by 임주경 on 2020/11/06.
+//  Created by 임주경 on 6/29/24.
 //
 
 import UIKit
@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnSend(_ sender: UIButton) {
-        lblHello.text = "Hello," + txtName.text!
+        lblHello.text = "Hello, " + txtName.text!
     }
     
 }
